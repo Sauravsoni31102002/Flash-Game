@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+}
+
+
+em {
+  color: rgb(17, 18, 19);
+  padding: 10px 30px; /* Adjust padding as needed */
+  border: 1px solid rgb(28, 28, 29); /* Border width, style, and color */
+  background-color: rgba(20, 17, 63, 0.267); /* Background color */
+  border-radius: 100px; /* Rounded corners */
+  font-family: Arial, sans-serif; /* Font family */
+  position: relative;
+}
+
+em1 {
+  color: rgb(16, 17, 17);
+  padding: 20px 40px; /* Adjust padding as needed */
+  border: 1px solid rgb(12, 12, 14); /* Border width, style, and color */
+  background-color: rgb(209, 35, 35); /* Background color */
+  border-radius: 100px; /* Rounded corners */
+  font-family: Arial, sans-serif; /* Font family */
+  position: relative;
+}
+.game-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+button {
+  margin: 10px;
+  padding: 30px 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#game1 {
+  background-color: #4CAF50;
+  color: rgb(243, 238, 238);
+}
+
+#game2 {
+  background-color: #5034b3;
+  color: rgb(243, 238, 238);
+}
+header {
+  background-image: url('sword.jpg');
+  background-size: cover; /* Cover the entire header with the background image */
+  color: white; /* Set the text color to white */
+  padding: 20px; /* Add some padding for better spacing */
+  background-size: 20;
+}
+

@@ -1,0 +1,24 @@
+#puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    border: 2px solid black;
+    width: 306px; /* (3 * 100) + (2 * 2) */
+    height: 306px;
+  }
+  
+  .tile {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+  }
+  
